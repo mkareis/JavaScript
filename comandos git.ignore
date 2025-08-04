@@ -1,0 +1,26 @@
+# Configurações iniciais do usuário
+git config --global user.name "Seu Nome"
+git config --global user.email "seu-email@exemplo.com"
+
+# Inicializa o repositório local
+git init
+
+# Adiciona todos os arquivos ao controle de versão
+git add .
+
+# Faz o primeiro commit
+git commit -m "Primeiro commit"
+
+# Conecta ao repositório remoto
+git remote add origin https://github.com/usuario/nome-do-repositorio.git
+
+# Envia os arquivos para o repositório remoto
+git push -u origin master  # ou 'main', dependendo do seu branch padrão
+
+# Para atualizações futuras:
+git add .
+git commit -m "Atualizações"
+git push
+
+# Para buscar mudanças do remoto:
+git pull

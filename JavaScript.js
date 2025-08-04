@@ -1,10 +1,18 @@
-var texto = 'Olá mundo';
-var inteiro = 500;
-var real = 50.5;
-var booleano = true;
-var nome = 'José';
+var a = 10;
+var b = 20;
+var c = null;
 
-document.write("Olá " + nome + "<br>");
-document.write("O valor inteiro é de: " + inteiro + "<br>");
-document.write("O valor real é de: " + real + "<br>");
-document.write("A afirmação é: " + booleano + "<br>");
+document.write("Variável A: " + a + "<br>");
+document.write("Variável B: " + b + "<br>");
+document.write("Variável C: " + c + "<br>");
+
+document.writeln('<hr />')
+var c = a;
+var a = b;
+var b = c;
+var c = null;
+
+document.write("Variável A: " + a + "<br>");
+document.write("Variável B: " + b + "<br>");
+document.write("Variável C: " + c + "<br>");
+
