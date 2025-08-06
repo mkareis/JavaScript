@@ -1,0 +1,36 @@
+If / else if / else
+
+
+if (condição) {
+    trecho de código que será executado
+} else if (Condição) {
+    trecho de código que será executado
+}else{
+    trecho de código que será executado
+}
+
+
+operadores de comparação
+Igual == Verifica se os valores comparados são iguais
+Idêntico === Verifica se os valores são iguais e do mesmo tipo
+Diferente != Verifica se os valores comparados são diferentes
+Não idêntico !== Verifica se os valores são desiguais e tipos diferentes.Condição
+
+Realizar o casting de dados temos que realizar a transformação do tipo de entrada de dados
+parseInt converte o número para tipo inteiro
+parseFloat converte o número para o tipo real
+toString converte o tipo para uma string
+
+Operadores lógicos
+
+E (&&) Verdadeiro se todas as expressões forem verdadeiras
+OU (||) Verdadeiro se pelo menos uma expressão for verdadeira
+Negação ! Inverte o resultado da expressão de comparação
+
+Operador ternário
+O operador ternário é uma forma curta e elegante de escrever uma estrutura condicional em linguagens de programação — como se fosse um if...else, mas condensado em uma única linha!
+
+condição ? valor_se_verdadeiro : valor_se_falso
+let idade = 18;
+let podeEntrar = idade >= 18 ? "Sim" : "Não";
+console.log(podeEntrar); // Saída: "Sim"
